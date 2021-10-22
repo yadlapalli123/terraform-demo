@@ -1,9 +1,9 @@
 resource "aws_instance" "myawsserver" {
   ami = "ami-0603cbe34fd08cb81"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
 
   tags = {
-    Name = "Techlanders-aws-ec2-instance-v2 from github"
+    Name = "Techlanders-aws-ec2-instance-v3 from github"
     Env = "Dev"
   }
 }
