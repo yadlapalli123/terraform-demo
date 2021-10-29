@@ -3,11 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-<<<<<<< HEAD
     Name = "Ram-aws-BheemlaN"
-=======
-    Name = "Ram-aws-ec2-instance-v1"
->>>>>>> a3eceaf196f3bde31a3126c23534dc6d40c4e3ad
     Env = "Dev"
   }
 }
